@@ -1,3 +1,5 @@
+![](https://drive.google.com/uc?id=1DSCPs2Dd90E-4rwU7VH5AX9uC8kbjUCv)
+
 # introduction
 
 orange-cxr-classifier is a collection of supervised trained machine learning model, trained to classify images of Chest X-Ray (CXR).  All model is trained using posterior-anterior x-ray images from open database of COVID-19 cases chest X-ray published [here](https://github.com/ieee8023/covid-chestxray-dataset). This trained model is to be use within **Orange Data Mining program**.
