@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# introduction
 
-You can use the [editor on GitHub](https://github.com/mrharmonies/orange-cxr-classifier/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+orange-cxr-classifier is a collection of supervised trained machine learning model, trained to classify images of Chest X-Ray (CXR).  All model is trained using posterior-anterior x-ray images from open database of COVID-19 cases chest X-ray published [here](https://github.com/ieee8023/covid-chestxray-dataset). This trained model is to be use within **Orange Data Mining program**.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# requirements
 
-### Markdown
+1. Orange Data Mining
+2. Image Analytics Addon for Orange Data Mining
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# usage
 
-```markdown
-Syntax highlighted code block
+## predicting
 
-# Header 1
-## Header 2
-### Header 3
+### You need:
+1. Images of CXR you want to analyze
+2. Orange Data Mining with **Image Analytics Add-on** installed
+3. A trained model (you can get it from **trained-model** in this repository)
+4. Orange Workflow file **predict-cxr.ows** (you can get this file from this repository)
 
-- Bulleted
-- List
+### Steps:
+1. Open Orange Workflow file **predict-cxr.ows**
+2. Follow instruction from within Orange Data Mining
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrharmonies/orange-cxr-classifier/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## training
+.. to be continued ..
