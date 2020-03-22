@@ -2,7 +2,7 @@
 
 # introduction
 
-orange-cxr-classifier is a collection of supervised trained machine learning model, trained to classify images of Chest X-Ray (CXR).  All model is trained using posterior-anterior x-ray images from open database of COVID-19 cases chest X-ray published [here](https://github.com/ieee8023/covid-chestxray-dataset). This trained model is to be use within **Orange Data Mining program**.
+orange-cxr-classifier is a collection of supervised trained machine learning model, trained to classify images of Chest X-Ray (CXR).  All model is trained using posterior-anterior x-ray images from [open database of COVID-19 cases chest X-ray](https://github.com/ieee8023/covid-chestxray-dataset) published [here](https://github.com/ieee8023/covid-chestxray-dataset). This trained model is to be use within **Orange Data Mining program**.
 
 # requirements
 
@@ -20,8 +20,10 @@ orange-cxr-classifier is a collection of supervised trained machine learning mod
 4. Orange Workflow file **predict-cxr.ows** (you can get this file from this repository)
 
 ### Steps:
-1. Open Orange Workflow file **predict-cxr.ows**
-2. Follow instruction from within Orange Data Mining
+1. Open Orange Workflow file **predict-cxr.ows** from within Orange Data Mining program.
+2. Follow instruction from step 1 to 8.
+
+![](https://drive.google.com/uc?id=1cuZW6kK2TyItq439YzyrCbwojDzjyCRc)
 
 ## training
 .. to be continued ..
