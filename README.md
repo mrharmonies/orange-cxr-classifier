@@ -26,7 +26,7 @@ orange-cxr-classifier is a collection of supervised trained machine learning mod
 ![](https://drive.google.com/uc?id=1cuZW6kK2TyItq439YzyrCbwojDzjyCRc)
 
 ## training
-### you need:
+### You need:
 1. **awk** or any awk variation, eg, **gawk** (awk is a domain-specific language designed for text processing)
 2. **COVID-19 image data collection repository** (can be downloaded [here](https://github.com/ieee8023/covid-chestxray-dataset))
 3. **unix or unix-like terminal** (you might want to use cygwin or windows subsystem for linux)
@@ -42,37 +42,14 @@ orange-cxr-classifier is a collection of supervised trained machine learning mod
 awk -f parsemetadata.awk metadata.csv
 ```
 4. This command will sort all image file found in metadata.csv into appropriate folder for training
-```bash
-handling: SARS-10.1148rg.242035193-g04mr34g04b-Fig4b-day12.jpeg
-handling: SARS-10.1148rg.242035193-g04mr34g05x-Fig5-day9.jpeg
-handling: SARS-10.1148rg.242035193-g04mr34g07a-Fig7a-day5.jpeg
-handling: SARS-10.1148rg.242035193-g04mr34g07b-Fig7b-day12.jpeg
-handling: SARS-10.1148rg.242035193-g04mr34g09a-Fig9a-day17.jpeg
-handling: SARS-10.1148rg.242035193-g04mr34g09b-Fig9b-day19.jpeg
-handling: SARS-10.1148rg.242035193-g04mr34g09c-Fig9c-day27.jpeg
-handling: 1-s2.0-S0140673620303706-fx1_lrg.jpg
-handling: nCoV-radiol.2020200269.fig1-day7.jpeg
-handling: nejmoa2001191_f1-PA.jpeg
-...
-...
-...
-handling: 03BF7561-A9BA-4C3C-B8A0-D3E585F73F3C.jpeg
-handling: 353889E0-A1E8-4F9E-A0B8-F24F36BCFBFB.jpeg
-handling: figure1-5e73d7ae897e27ff066a30cb-98.jpeg
-handling: figure1-5e75d0940b71e1b702629659-98-right.jpeg
-handling: figure1-5e71be566aa8714a04de3386-98-left.jpeg
-handling: 1F6343EE-AFEC-4B7D-97F5-62797EE18767.jpeg
-handling: 5A78BCA9-5B7A-440D-8A4E-AE7710EA6EAD.jpeg
-handling: 2B8649B2-00C4-4233-85D5-1CE240CF233B.jpeg
-handling: 2966893D-5DDF-4B68-9E2B-4979D5956C8E.jpeg
-handling: B2D20576-00B7-4519-A415-72DE29C90C34.jpeg
-handling: 6C94A287-C059-46A0-8600-AFB95F4727B7.jpeg
-Jobs finished. Total of 123 images handled. You can now start training using "training-data" folder.
 
-```
+![](https://drive.google.com/uc?id=1GGC2t3r6x5SMll-ObIVqoelMPtRkWPMg)
+
 5. If everything goes ok, then you are now ready to start the training from within orange data mining.
 6. Launch **orange data mining** and open **train-cxr.ows** workflow file.
 7. Continue following instruction from within the workflow file.
+
+![](https://drive.google.com/uc?id=1c4qRHtpf8sFzxIEocENOZ-zNp2UF3jC4)
 
 # license
 Copyright (C) 2020 Mohd Kholid Yaacob (http://mrharmonies.blogspot.com)
