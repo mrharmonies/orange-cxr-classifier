@@ -28,7 +28,7 @@ $7~/(AP|PA)/ {
 	# declare filename variable
 	file="";
 	
-	# look for filename ended with jpef, jpg and png	
+	# look for filename ended with jpeg, jpg and png	
 	for(i=1;i<=NF;i++) if($i~/(jpeg|jpg|png)$/) { file=$i; break; }; 
 
 	# prepare command for sorting file into folders
