@@ -31,7 +31,7 @@ orange-cxr-classifier is a collection of supervised trained machine learning mod
 2. **COVID-19 image data collection repository** (can be downloaded [here](https://github.com/ieee8023/covid-chestxray-dataset))
 3. **unix or unix-like terminal** (you might want to use cygwin or windows subsystem for linux)
 4. Orange Data Mining with **Image Analytics Add-on** installed
-5. Orange Workflow file **train-cxr.ows** (you can get this file from **training** folder in this repository)
+5. Orange Workflow file **train-cxr.ows** (you can get this file from **training-tool** folder in this repository)
 6. **parsemetadata.awk** (you can get this file from **training** folder in this repository)
 
 ### Steps:
