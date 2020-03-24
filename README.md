@@ -26,8 +26,9 @@ orange-cxr-classifier is a collection of supervised trained machine learning mod
 ![](https://drive.google.com/uc?id=1cuZW6kK2TyItq439YzyrCbwojDzjyCRc)
 
 ## training
+
 ### Why?
-**COVID-19 image data collection repository** published here by Joseph Paul Cohen is frequently updated. Training with updated data can improve model accuracy.
+**COVID-19 image data collection repository** published by Joseph Paul Cohen is frequently updated. Training with updated data can improve model accuracy.
 
 ### You need:
 1. **awk** or any awk variation, eg, **gawk** (awk is a domain-specific language designed for text processing)
