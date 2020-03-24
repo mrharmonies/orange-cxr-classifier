@@ -29,7 +29,7 @@ $7~/(AP|PA)/ {
 	file="";
 	
 	# look for filename ended with jpef, jpg and png	
-	for(i=1;i<=NF;i++) if($i~/(jpeg|jpg|png)$/) file=$i; 
+	for(i=1;i<=NF;i++) if($i~/(jpeg|jpg|png)$/) { file=$i; break; }; 
 
 	# prepare command for sorting file into folders
 	command="cp -rf images/" file " \"" trainingfolder "/" $5"\"";
