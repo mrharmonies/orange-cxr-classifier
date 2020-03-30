@@ -23,7 +23,7 @@ BEGIN {
 	num=0;
 }
 
-# search for anterior posterior cxr
+# search for anterior posterior cxr with keyword PA or AP
 $7~/(AP|PA)/ { 
 	# declare filename variable
 	file="";
@@ -36,13 +36,13 @@ $7~/(AP|PA)/ {
 	
 	# execute command
 	system("mkdir -p \"" trainingfolder "/" $5 "\"" );
-	system (command); # copy it to training-data folder
+	system(command); # copy it to training-data folder
 	
 	# some feedback for user
-	print ("handling: " file); 
+	print("handling: " file); 
 	
 	# update counter
-	num=num+1;
+	num++;
 }
 
 END { 
